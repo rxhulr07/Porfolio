@@ -1,7 +1,7 @@
 {
-  "name": "vcard-personal-portfolio",
+  "name": "ai-portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "��#\u0000 \u0000P\u0000o\u0000r\u0000f\u0000o\u0000l\u0000i\u0000o\u0000\r\u0000 \u0000",
   "homepage": "https://github.com/codewithsadee/vcard-personal-portfolio#readme",
   "bugs": {
     "url": "https://github.com/codewithsadee/vcard-personal-portfolio/issues"
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/codewithsadee/vcard-personal-portfolio.git"
   },
   "license": "ISC",
-  "author": "",
+  "author": "rahul ranjan",
   "type": "commonjs",
   "main": "server.js",
   "scripts": {
@@ -23,6 +23,7 @@
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
-    "nodemailer": "^6.10.0"
+    "nodemailer": "^6.10.0",
+    "path": "^0.12.7"
   }
 }
