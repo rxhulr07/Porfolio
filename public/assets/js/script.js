@@ -199,3 +199,22 @@ document.querySelector("[data-form]").addEventListener("submit", async function(
 
   submitBtn.disabled = false; // Re-enable button
 });
+
+// chatbot 
+
+// Initialize the Botpress Webchat
+window.botpressWebChat.init({
+  host: 'https://cdn.botpress.cloud', // Host for the Botpress webchat
+  botId: '', // You do not need the botId here because it's defined in the config URL
+  configUrl: 'https://files.bpcontent.cloud/2025/03/13/17/20250313172530-YI5PC3HQ.json', // Your custom Botpress config URL
+  hideWidget: true // Initially hide the widget until the user clicks the avatar
+});
+
+// Get the avatar element
+const avatarBox = document.querySelector('.avatar-box');
+
+// Add click event to show the Botpress webchat when the avatar is clicked
+avatarBox.addEventListener('click', () => {
+  // Toggle visibility of the webchat
+  window.botpressWebChat.toggle();
+});
